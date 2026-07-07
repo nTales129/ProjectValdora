@@ -1,0 +1,32 @@
+{
+  "name": "com.unity.template.urp-blank",
+  "displayName": "3D URP",
+  "version": "17.0.14",
+  "type": "template",
+  "host": "hub",
+  "unity": "2023.3",
+  "description": "This template includes the settings and assets you need to start creating with the Universal Render Pipeline (URP).",
+  "dependencies": {
+    "com.unity.ai.navigation": "2.0.0",
+    "com.unity.collab-proxy": "2.2.0",
+    "com.unity.ide.rider": "3.0.27",
+    "com.unity.ide.visualstudio": "2.0.22",
+    "com.unity.inputsystem": "1.12.0",
+    "com.unity.render-pipelines.universal": "17.0.1",
+    "com.unity.test-framework": "1.4.2",
+    "com.unity.timeline": "1.8.6",
+    "com.unity.ugui": "2.0.0",
+    "com.unity.visualscripting": "1.9.1"
+  },
+  "_upm": {
+    "changelog": "- Upgrade input system version to 1.12.0 so that a warning message is shown on platforms which require additional platform specific input system packages to be installed."
+  },
+  "upmCi": {
+    "footprint": "d3f01379dcd129f7837d2eba3fb96449ca52916e"
+  },
+  "repository": {
+    "url": "git@github.cds.internal.unity3d.com:unity/com.unity.template.urp-blank.git",
+    "type": "git",
+    "revision": "c49b908f8e5161c9c7eb4321abb47fc37afccdbc"
+  }
+}
